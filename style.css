@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(252, 249, 251);
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #1a9761;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+h3 {
+    color: #631477;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+.cell {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid rgb(252, 249, 251);
+    background-color: rgb(175, 17, 96);
+    font-size: 80px;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;  
+    align-content: center;
+}
+
+button {
+    display: block;
+    margin: 25px auto;
+    background-color: #631477;
+    color: rgb(252, 249, 251);
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+}
+
+.xStyle {
+    color: #68dfab;
+}
+
+.oStyle {
+    color: #e198f7;
+}
